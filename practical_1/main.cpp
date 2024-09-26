@@ -24,6 +24,18 @@ const float paddleOffsetWall = 10.f;
 CircleShape ball;
 RectangleShape paddles[2];
 
+void Reset(){
+	//reset paddle position 
+	paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f , gameHeight /2.f));
+	paddles[1].setPosition(Vector2f(gameWidth - (paddleOffsetWall + paddleSize.x / 2.f) , gameHeight /2.f));
+	
+	//reset paddle position 
+	ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f));
+	
+	//reset ball position 
+	ballVelocity = { ( isPlayerServing ? initialVelocityX : -initialVelocityX), initialVelocityY };
+}
+
 void Load(){
 	//set size and origin of paddles 
 	for ( auto &p : paddles) {
@@ -37,18 +49,6 @@ void Load(){
 	
 	Reset();
 	
-}
-
-void Reset(){
-	//reset paddle position 
-	paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f , gameHeight /2.f));
-	paddles[1].setPosition(Vector2f(gameWidth - (paddleOffsetWall + paddleSize.x / 2.f) , gameHeight /2.f));
-	
-	//reset paddle position 
-	ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f));
-	
-	//reset ball position 
-	ballVelocity = { ( isPlayerServing ? initialVelocityX : -initialVelocityX), initialVelocityY };
 }
 
 void Update(RenderWindow &window) {
