@@ -31,7 +31,7 @@ void Load(){
     ball.setOrigin(ballRadius / 2.f , 2.f);
 	//reset paddle position 
 	paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f , gameHeight /2.f));
-	paddles[1].setPosition(Vector2f(gameWidth + (paddleOffsetWall + paddleSize.x / 2.f) , gameHeight /2.f));
+	paddles[1].setPosition(Vector2f(gameWidth - (paddleOffsetWall + paddleSize.x / 2.f) , gameHeight /2.f));
 	//reset paddle position 
 	ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f));
 }
