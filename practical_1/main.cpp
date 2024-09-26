@@ -3,14 +3,14 @@
 using namespace sf;
 using namespace std;
 
-const Keyboard::Key controls[4] - {
-	Keyboard::A //player1 up
-	Keyboard::Z //player 1 down 
-	Keyboard::Up 
-	Keyboard::down
+const Keyboard::Key controls[4] = {
+	Keyboard::A, //player1 up
+	Keyboard::Z, //player 1 down 
+	Keyboard::Up, 
+	Keyboard::Down
 };
-const Vector2f paddleSize(25.f, 100,f);
-const float ballRadius = 10.f
+const Vector2f paddleSize(25.f, 100.f);
+const float ballRadius = 10.f;
 const int gameWidth = 800;
 const int gameHeight = 600;
 const float paddleSpeed = 400.f;
@@ -19,7 +19,7 @@ const float paddleOffsetWall = 10.f;
 CircleShape ball;
 RectangleShape paddles[2];
 
-void load(){
+void Load(){
 	//set size and origin of paddles 
 	for ( auto &p : paddles) {
 		p.setSize(paddleSize);
@@ -27,13 +27,13 @@ void load(){
 	}
 	
 	//set size and origin of ball
-	ball.setRadius(ballRadius)
-	ball.setOrigin(ballRadius / 2.f)
+    ball.setRadius(ballRadius);
+    ball.setOrigin(ballRadius / 2.f , 2.f);
 	//reset paddle position 
-	paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f , gameHeight /2.f)):
+	paddles[0].setPosition(Vector2f(paddleOffsetWall + paddleSize.x / 2.f , gameHeight /2.f));
 	paddles[1].setPosition(Vector2f(gameWidth + (paddleOffsetWall + paddleSize.x / 2.f) , gameHeight /2.f));
 	//reset paddle position 
-	ball.setPosition(float(gameWidth / 2.f, gameHeight / 2.f));
+	ball.setPosition(Vector2f(gameWidth / 2.f, gameHeight / 2.f));
 }
 
 void Update(RenderWindow &window) {
