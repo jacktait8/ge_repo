@@ -88,11 +88,11 @@ void Update(RenderWindow &window) {
 	if(by > gameHeight ) {
 		ballVelocity.x *= velocityMultiplier;
 		ballVelocity.y *= -velocityMultiplier;
-		ball.move(Vector2(0.f, -10.f));
+		ball.move(Vector2f(0.f, -10.f));
 	} else if( by < 0) {
 		ballVelocity.x *= velocityMultiplier;
 		ballVelocity.y *= -velocityMultiplier;
-		ball.move(Vector2(0.f, 10.f));	
+		ball.move(Vector2f(0.f, 10.f));	
 	} else if (bx > gameWidth) {
 		// right wall
 		Reset();
@@ -108,7 +108,7 @@ void Update(RenderWindow &window) {
 		by < paddles[0].getPosition().y + (paddleSize.y * 0.5)){
 		// bounce off left paddle
 		ballVelocity.x = -velocityMultiplier;
-		ball.move(Vector2(0.f, 10.f));
+		ball.move(Vector2f(0.f, 10.f));
 		
 	} else if (		
 		//ball is inline or behind paddle AND
@@ -119,7 +119,7 @@ void Update(RenderWindow &window) {
 		by < paddles[0].getPosition().y + (paddleSize.y * 0.5)){
 		//bounces off right paddle
 		ballVelocity.x = -velocityMultiplier;
-		ball.move(Vector2(0.f, 10.f));
+		ball.move(Vector2f(0.f, 10.f));
 
 	}
 }
