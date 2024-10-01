@@ -82,19 +82,29 @@ void Update(RenderWindow& window) {
 	if (Keyboard::isKeyPressed(controls[1])) {
 		player1Direction++;
 	}
-	if (Keyboard::isKeyPressed(controls[2])) {
-		player2Direction--;
-	}
-	if (Keyboard::isKeyPressed(controls[3])) {
-		player2Direction++;
-	}
+	//if (Keyboard::isKeyPressed(controls[2])) {
+	//	player2Direction--;
+	//}
+	//if (Keyboard::isKeyPressed(controls[3])) {
+	//	player2Direction++;
+	//}
 	paddles[0].move(Vector2f(0.f, player1Direction * paddleSpeed * dt));
 	paddles[1].move(Vector2f(0.f, player2Direction * paddleSpeed * dt));
+
+	
 
 	ball.move(ballVelocity * dt);
 	//check player collision 
 	const float paddle0y = paddles[0].getPosition().y;
 	const float paddle1y = paddles[1].getPosition().y;
+	const float ballY = ball.getPosition().y;
+
+	if (paddle1y > ballY + paddleSize.y / 4.f) {
+		paddles[1].move(Vector2f(0.f, -150 * dt));
+	}
+	if (paddle1y < ballY - paddleSize.y / 4.f) {
+		paddles[1].move(Vector2f(0.f, 150 * dt));
+	}
 	
 
 	//prevent baddles from going out of bounds
@@ -115,6 +125,7 @@ void Update(RenderWindow& window) {
 	// check ball collision
 	const float bx = ball.getPosition().x;
 	const float by = ball.getPosition().y;
+
 	
 	if(by > gameHeight ) {
 		ballVelocity.x *= velocityMultiplier;
