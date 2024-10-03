@@ -206,16 +206,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "PRACTICAL_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PRACTICAL_1-Debug-ff958d3948b7fee6b7d1.json",
-					"name" : "PRACTICAL_1",
+					"id" : "SPACEINVADERS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPACEINVADERS-Debug-716f9d7bc3b18e49c149.json",
+					"name" : "SPACEINVADERS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SPACEINVADERS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SPACEINVADERS-Debug-f83ca78d5af5e6e182c0.json",
-					"name" : "SPACEINVADERS",
+					"id" : "copy_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_resources-Debug-9778029ab0bba4989657.json",
+					"name" : "copy_resources",
 					"projectIndex" : 0
 				},
 				{
@@ -228,7 +228,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-graphics::@8f027e26a9c49a14a54c",
-					"jsonFile" : "target-sfml-graphics-Debug-7bd1473b2b4b6697574d.json",
+					"jsonFile" : "target-sfml-graphics-Debug-c56e2db7d680f3a75270.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},

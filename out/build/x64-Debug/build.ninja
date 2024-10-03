@@ -41,51 +41,13 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target PRACTICAL_1
-
-
-#############################################
-# Order-only phony target for PRACTICAL_1
-
-build cmake_object_order_depends_target_PRACTICAL_1: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
-
-build CMakeFiles\PRACTICAL_1.dir\practical_1\main.cpp.obj: CXX_COMPILER__PRACTICAL_1_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\practical_1\main.cpp || cmake_object_order_depends_target_PRACTICAL_1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
-  INCLUDES = -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include"
-  OBJECT_DIR = CMakeFiles\PRACTICAL_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\PRACTICAL_1.dir\practical_1
-  TARGET_COMPILE_PDB = CMakeFiles\PRACTICAL_1.dir\
-  TARGET_PDB = bin\PRACTICAL_1.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target PRACTICAL_1
-
-
-#############################################
-# Link the executable bin\PRACTICAL_1.exe
-
-build bin\PRACTICAL_1.exe: CXX_EXECUTABLE_LINKER__PRACTICAL_1_Debug CMakeFiles\PRACTICAL_1.dir\practical_1\main.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\out\build\x64-Debug\lib\sfml\lib"
-  OBJECT_DIR = CMakeFiles\PRACTICAL_1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\PRACTICAL_1.dir\
-  TARGET_FILE = bin\PRACTICAL_1.exe
-  TARGET_IMPLIB = PRACTICAL_1.lib
-  TARGET_PDB = bin\PRACTICAL_1.pdb
-
-# =============================================================================
 # Object build statements for EXECUTABLE target SPACEINVADERS
 
 
 #############################################
 # Order-only phony target for SPACEINVADERS
 
-build cmake_object_order_depends_target_SPACEINVADERS: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
+build cmake_object_order_depends_target_SPACEINVADERS: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window copy_resources
 
 build CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj: CXX_COMPILER__SPACEINVADERS_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\spaceInvaders\main.cpp || cmake_object_order_depends_target_SPACEINVADERS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
@@ -103,11 +65,11 @@ build CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj: CXX_COMPILER__SPA
 #############################################
 # Link the executable bin\SPACEINVADERS.exe
 
-build bin\SPACEINVADERS.exe: CXX_EXECUTABLE_LINKER__SPACEINVADERS_Debug CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll
+build bin\SPACEINVADERS.exe: CXX_EXECUTABLE_LINKER__SPACEINVADERS_Debug CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll copy_resources
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\out\build\x64-Debug\lib\sfml\lib"
+  LINK_PATH = -LIBPATH:C:\Users\44759\ONEDRI~1\DOCUME~1\GitHub\ge_repo\out\build\X64-DE~1\lib\sfml\lib
   OBJECT_DIR = CMakeFiles\SPACEINVADERS.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -115,6 +77,12 @@ build bin\SPACEINVADERS.exe: CXX_EXECUTABLE_LINKER__SPACEINVADERS_Debug CMakeFil
   TARGET_FILE = bin\SPACEINVADERS.exe
   TARGET_IMPLIB = SPACEINVADERS.lib
   TARGET_PDB = bin\SPACEINVADERS.pdb
+
+
+#############################################
+# Utility command for copy_resources
+
+build copy_resources: phony CMakeFiles\copy_resources
 
 
 #############################################
@@ -192,6 +160,13 @@ build CMakeFiles\install\local.util: CUSTOM_COMMAND all
   restat = 1
 
 build install\local: phony CMakeFiles\install\local.util
+
+
+#############################################
+# Custom command for CMakeFiles\copy_resources
+
+build CMakeFiles\copy_resources | ${cmake_ninja_workdir}CMakeFiles\copy_resources: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\out\build\x64-Debug" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/res" "C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/bin//Debug/res""
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2015,10 +1990,6 @@ build lib\sfml\src\SFML\Audio\install\local: phony lib\sfml\src\SFML\Audio\CMake
 # =============================================================================
 # Target aliases.
 
-build PRACTICAL_1: phony bin\PRACTICAL_1.exe
-
-build PRACTICAL_1.exe: phony bin\PRACTICAL_1.exe
-
 build SPACEINVADERS: phony bin\SPACEINVADERS.exe
 
 build SPACEINVADERS.exe: phony bin\SPACEINVADERS.exe
@@ -2055,7 +2026,7 @@ build sfml-window-d-2.dll: phony bin\sfml-window-d-2.dll
 #############################################
 # Folder: C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug
 
-build all: phony bin\PRACTICAL_1.exe bin\SPACEINVADERS.exe lib\sfml\all
+build all: phony bin\SPACEINVADERS.exe copy_resources lib\sfml\all
 
 # =============================================================================
 

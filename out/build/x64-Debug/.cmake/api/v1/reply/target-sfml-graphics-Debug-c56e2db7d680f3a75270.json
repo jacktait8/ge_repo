@@ -298,11 +298,11 @@
 	[
 		{
 			"backtrace" : 4,
-			"id" : "sfml-system::@ade90ebdf211b83bd87c"
+			"id" : "sfml-window::@344d4f502e197fb19f4c"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "sfml-window::@344d4f502e197fb19f4c"
+			"id" : "sfml-system::@ade90ebdf211b83bd87c"
 		}
 	],
 	"folder" : 
