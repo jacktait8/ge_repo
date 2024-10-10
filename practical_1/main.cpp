@@ -89,7 +89,7 @@ void Update(RenderWindow& window) {
 	//	player2Direction++;
 	//}
 	paddles[0].move(Vector2f(0.f, player1Direction * paddleSpeed * dt));
-	paddles[1].move(Vector2f(0.f, player2Direction * paddleSpeed * dt));
+	//paddles[1].move(Vector2f(0.f, player2Direction * paddleSpeed * dt));
 
 	
 
