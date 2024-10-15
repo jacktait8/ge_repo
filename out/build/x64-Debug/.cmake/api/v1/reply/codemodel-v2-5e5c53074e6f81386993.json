@@ -206,16 +206,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "SPACEINVADERS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SPACEINVADERS-Debug-7c4331b760e817d6431b.json",
-					"name" : "SPACEINVADERS",
+					"id" : "TILEENGINE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TILEENGINE-Debug-aab715f8435357a08eec.json",
+					"name" : "TILEENGINE",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "copy_resources::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-copy_resources-Debug-9778029ab0bba4989657.json",
-					"name" : "copy_resources",
+					"id" : "copy_tile_engine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_tile_engine-Debug-90150f74ed682a40268b.json",
+					"name" : "copy_tile_engine",
 					"projectIndex" : 0
 				},
 				{

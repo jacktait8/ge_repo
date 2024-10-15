@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/SPACEINVADERS.exe"
+			"path" : "bin/TILEENGINE.exe"
 		},
 		{
-			"path" : "bin/SPACEINVADERS.pdb"
+			"path" : "bin/TILEENGINE.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -109,20 +109,20 @@
 			"sourceIndexes" : 
 			[
 				0,
-				3,
-				4
+				2,
+				3
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "sfml-system::@ade90ebdf211b83bd87c"
+			"backtrace" : 8,
+			"id" : "copy_tile_engine::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 8,
-			"id" : "copy_resources::@6890427a1f51a3e7e1df"
+			"backtrace" : 3,
+			"id" : "sfml-system::@ade90ebdf211b83bd87c"
 		},
 		{
 			"backtrace" : 3,
@@ -133,7 +133,7 @@
 			"id" : "sfml-graphics::@8f027e26a9c49a14a54c"
 		}
 	],
-	"id" : "SPACEINVADERS::@6890427a1f51a3e7e1df",
+	"id" : "TILEENGINE::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -173,8 +173,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "SPACEINVADERS",
-	"nameOnDisk" : "SPACEINVADERS.exe",
+	"name" : "TILEENGINE",
+	"nameOnDisk" : "TILEENGINE.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -187,8 +187,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				3,
-				4
+				2,
+				3
 			]
 		},
 		{
@@ -196,8 +196,7 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2,
-				5
+				4
 			]
 		}
 	],
@@ -206,34 +205,29 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "spaceInvaders/bullet.cpp",
+			"path" : "tileEngine/entity.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "spaceInvaders/bullet.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "spaceInvaders/game.h",
+			"path" : "tileEngine/entity.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "spaceInvaders/main.cpp",
+			"path" : "tileEngine/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "spaceInvaders/ship.cpp",
+			"path" : "tileEngine/player.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "spaceInvaders/ship.h",
+			"path" : "tileEngine/player.h",
 			"sourceGroupIndex" : 1
 		}
 	],

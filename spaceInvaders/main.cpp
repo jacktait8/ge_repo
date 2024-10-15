@@ -12,7 +12,7 @@ sf::Sprite invader;
 using namespace std;
 using namespace sf;
 
-Player player;
+Player1 player;
 
 void Load() {
 

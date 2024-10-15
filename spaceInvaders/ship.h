@@ -26,8 +26,8 @@ public:
     void Update(const float& dt) override;
 };
 
-class Player : public Ship {
+class Player1 : public Ship {
 public:
-    Player();
+    Player1();
     void Update(const float& dt)override;
 };

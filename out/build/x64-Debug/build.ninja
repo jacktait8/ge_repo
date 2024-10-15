@@ -41,64 +41,64 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target SPACEINVADERS
+# Object build statements for EXECUTABLE target TILEENGINE
 
 
 #############################################
-# Order-only phony target for SPACEINVADERS
+# Order-only phony target for TILEENGINE
 
-build cmake_object_order_depends_target_SPACEINVADERS: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window copy_resources
+build cmake_object_order_depends_target_TILEENGINE: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window copy_tile_engine
 
-build CMakeFiles\SPACEINVADERS.dir\spaceInvaders\bullet.cpp.obj: CXX_COMPILER__SPACEINVADERS_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\spaceInvaders\bullet.cpp || cmake_object_order_depends_target_SPACEINVADERS
+build CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\entity.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
-  OBJECT_DIR = CMakeFiles\SPACEINVADERS.dir
-  OBJECT_FILE_DIR = CMakeFiles\SPACEINVADERS.dir\spaceInvaders
-  TARGET_COMPILE_PDB = CMakeFiles\SPACEINVADERS.dir\
-  TARGET_PDB = bin\SPACEINVADERS.pdb
+  OBJECT_DIR = CMakeFiles\TILEENGINE.dir
+  OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
+  TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
+  TARGET_PDB = bin\TILEENGINE.pdb
 
-build CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj: CXX_COMPILER__SPACEINVADERS_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\spaceInvaders\main.cpp || cmake_object_order_depends_target_SPACEINVADERS
+build CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\main.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
-  OBJECT_DIR = CMakeFiles\SPACEINVADERS.dir
-  OBJECT_FILE_DIR = CMakeFiles\SPACEINVADERS.dir\spaceInvaders
-  TARGET_COMPILE_PDB = CMakeFiles\SPACEINVADERS.dir\
-  TARGET_PDB = bin\SPACEINVADERS.pdb
+  OBJECT_DIR = CMakeFiles\TILEENGINE.dir
+  OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
+  TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
+  TARGET_PDB = bin\TILEENGINE.pdb
 
-build CMakeFiles\SPACEINVADERS.dir\spaceInvaders\ship.cpp.obj: CXX_COMPILER__SPACEINVADERS_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\spaceInvaders\ship.cpp || cmake_object_order_depends_target_SPACEINVADERS
+build CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\player.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
-  OBJECT_DIR = CMakeFiles\SPACEINVADERS.dir
-  OBJECT_FILE_DIR = CMakeFiles\SPACEINVADERS.dir\spaceInvaders
-  TARGET_COMPILE_PDB = CMakeFiles\SPACEINVADERS.dir\
-  TARGET_PDB = bin\SPACEINVADERS.pdb
+  OBJECT_DIR = CMakeFiles\TILEENGINE.dir
+  OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
+  TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
+  TARGET_PDB = bin\TILEENGINE.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SPACEINVADERS
+# Link build statements for EXECUTABLE target TILEENGINE
 
 
 #############################################
-# Link the executable bin\SPACEINVADERS.exe
+# Link the executable bin\TILEENGINE.exe
 
-build bin\SPACEINVADERS.exe: CXX_EXECUTABLE_LINKER__SPACEINVADERS_Debug CMakeFiles\SPACEINVADERS.dir\spaceInvaders\bullet.cpp.obj CMakeFiles\SPACEINVADERS.dir\spaceInvaders\main.cpp.obj CMakeFiles\SPACEINVADERS.dir\spaceInvaders\ship.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll copy_resources
+build bin\TILEENGINE.exe: CXX_EXECUTABLE_LINKER__TILEENGINE_Debug CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll copy_tile_engine
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   LINK_PATH = -LIBPATH:C:\Users\44759\ONEDRI~1\DOCUME~1\GitHub\ge_repo\out\build\X64-DE~1\lib\sfml\lib
-  OBJECT_DIR = CMakeFiles\SPACEINVADERS.dir
+  OBJECT_DIR = CMakeFiles\TILEENGINE.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\SPACEINVADERS.dir\
-  TARGET_FILE = bin\SPACEINVADERS.exe
-  TARGET_IMPLIB = SPACEINVADERS.lib
-  TARGET_PDB = bin\SPACEINVADERS.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
+  TARGET_FILE = bin\TILEENGINE.exe
+  TARGET_IMPLIB = TILEENGINE.lib
+  TARGET_PDB = bin\TILEENGINE.pdb
 
 
 #############################################
-# Utility command for copy_resources
+# Utility command for copy_tile_engine
 
-build copy_resources: phony CMakeFiles\copy_resources
+build copy_tile_engine: phony CMakeFiles\copy_tile_engine
 
 
 #############################################
@@ -179,9 +179,9 @@ build install\local: phony CMakeFiles\install\local.util
 
 
 #############################################
-# Custom command for CMakeFiles\copy_resources
+# Custom command for CMakeFiles\copy_tile_engine
 
-build CMakeFiles\copy_resources | ${cmake_ninja_workdir}CMakeFiles\copy_resources: CUSTOM_COMMAND
+build CMakeFiles\copy_tile_engine | ${cmake_ninja_workdir}CMakeFiles\copy_tile_engine: CUSTOM_COMMAND
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\out\build\x64-Debug" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/res" "C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/bin//Debug/res""
 
 # =============================================================================
@@ -2006,9 +2006,9 @@ build lib\sfml\src\SFML\Audio\install\local: phony lib\sfml\src\SFML\Audio\CMake
 # =============================================================================
 # Target aliases.
 
-build SPACEINVADERS: phony bin\SPACEINVADERS.exe
+build TILEENGINE: phony bin\TILEENGINE.exe
 
-build SPACEINVADERS.exe: phony bin\SPACEINVADERS.exe
+build TILEENGINE.exe: phony bin\TILEENGINE.exe
 
 build sfml-audio: phony bin\sfml-audio-d-2.dll
 
@@ -2042,7 +2042,7 @@ build sfml-window-d-2.dll: phony bin\sfml-window-d-2.dll
 #############################################
 # Folder: C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug
 
-build all: phony bin\SPACEINVADERS.exe copy_resources lib\sfml\all
+build all: phony bin\TILEENGINE.exe copy_tile_engine lib\sfml\all
 
 # =============================================================================
 

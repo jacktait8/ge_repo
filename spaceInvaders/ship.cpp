@@ -55,11 +55,11 @@ void Invader::Update(const float& dt) {
     std::cout << "New Position: " << getPosition().x << std::endl;
 }
 
-Player::Player() : Ship(IntRect(Vector2(160, 32), Vector2(32, 32))) {
+Player1::Player1() : Ship(IntRect(Vector2(160, 32), Vector2(32, 32))) {
     setPosition({ gameWidth * .5f, gameHeight - 32.f });
 }
 
-void Player::Update(const float& dt){
+void Player1::Update(const float& dt){
     Ship::Update(dt);
 
     float player1Direction = 0.0f;

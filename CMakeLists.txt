@@ -16,20 +16,26 @@ add_subdirectory("lib/sfml")
 set(SFML_INCS "lib/sfml/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/sfml/lib")
 
-## Space invaders
-file(GLOB_RECURSE SOURCES SPACEINVADERS/*.cpp SPACEINVADERS/*.h)
-add_executable(SPACEINVADERS ${SOURCES} )
-target_include_directories(SPACEINVADERS SYSTEM PRIVATE ${SFML_INCS})
-target_link_libraries(SPACEINVADERS sfml-graphics)
+## Tile loader lib
+file(GLOB_RECURSE SOURCE_FILES lib_tile_level_loader/*.cpp lib_tile_level_loader/*.h)
+add_library(lib_tile_level_loader STATIC ${SOURCE_FILES})
+target_include_directories(lib_tile_level_loader INTERFACE "${CMAKE_SOURCE_DIR}/lib_tile_level_loader/" )
+target_link_libraries(lib_tile_level_loader sfml-graphics)
 
-set_target_properties(SPACEINVADERS 
+## Tile Engine 
+file(GLOB_RECURSE SOURCES TILEENGINE/*.cpp TILEENGINE/*.h)
+add_executable(TILEENGINE ${SOURCES}  "tileEngine/entity.cpp" "tileEngine/player.h" "tileEngine/player.cpp")
+target_include_directories(TILEENGINE SYSTEM PRIVATE ${SFML_INCS})
+target_link_libraries(TILEENGINE sfml-graphics)
+
+set_target_properties(TILEENGINE 
     PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY
     ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/$(Configuration)
 )
 
- add_dependencies(SPACEINVADERS copy_resources)
+ add_dependencies(TILEENGINE copy_tile_engine)
 
-add_custom_target(copy_resources ALL COMMAND ${CMAKE_COMMAND} 
+add_custom_target(copy_tile_engine ALL COMMAND ${CMAKE_COMMAND} 
   -E copy_directory
     "${PROJECT_SOURCE_DIR}/res"
     ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/$<CONFIGURATION>/res

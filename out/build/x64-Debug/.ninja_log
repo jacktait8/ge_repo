@@ -1,5 +1,5 @@
 # ninja log v5
-21	946	7501904318073058	build.ninja	b6f6cc793ea01247
+21	946	7502643408659568	build.ninja	b6f6cc793ea01247
 143	311	7500897914323828	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj	ca42b6c508e0246e
 95	290	7500897914183820	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj	f8dba6a8b38825d1
 2314	3730	7500898325674490	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj	e2bc9803695f6225
@@ -21,7 +21,7 @@
 7349	7979	7500898368834245	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj	3d7c932479a122a3
 4688	6003	7500898348385133	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj	d667b9739d2086bb
 941	1419	7500898303263374	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj	3109675d9abade95
-97	1007	7501132269016536	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
+122	1546	7502628303249363	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
 1619	3326	7500898321586867	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj	ecafa66d3944b5fe
 1807	3621	7500898325049494	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj	916a9993bbaf8e51
 311	1143	7500897922806086	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj	708ba04a8ca56861
@@ -33,12 +33,13 @@
 1044	1575	7500897927176162	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj	86edc2aab15b09cc
 93	1765	7500898306506679	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj	c9b45ebf192eff4e
 3622	5572	7500898344182679	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.obj	3671867bcbcba0f9
-1008	1237	7501132270891524	bin/SPACEINVADERS.exe	77e348d5c60f8806
+894	1189	7502638436713944	bin/SPACEINVADERS.exe	9a517a829d1b68d8
 7963	8921	7500898378043038	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj	d51087a74d6e3536
 3630	5070	7500898339517300	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.obj	43fce703c120a13d
 953	1791	7496559321962824	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/sfml-system.rc.res	cb37719b4a9f86f7
 44	951	7500898298169483	lib/sfml/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj	6aa3d675bc1596a9
 84	406	7500898292925091	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj	5136c77b2578aa4d
+113	1283	7502628300593151	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
 66	941	7500898298179481	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj	8a8b23b52a15da93
 105	1657	7500898305442681	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj	70f35ca68777e757
 1053	1918	7500897930584895	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj	bf1cd5aa2bff1e6a
@@ -61,7 +62,6 @@
 2589	4579	7500898334149526	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj	c488793866df4897
 7037	7525	7500898364241843	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj	ca559bcedeebe038
 3326	4687	7500898335312507	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.obj	2a3a132572167d7c
-48	97	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
 3381	5103	7500898339673552	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.obj	ab98a1a7e9bbee55
 3928	5826	7500898347291268	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.obj	da74ed3816202238
 3249	5092	7500898339986039	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj	796192a17323d675
@@ -125,182 +125,32 @@
 8979	10336	7500898378824279	lib/sfml/lib/sfml-graphics-d.lib	a381e0d38bef47e5
 11941	12336	7496559427207765	bin/PRACTICAL_1.exe	4281e230b5af2c40
 10541	10780	7500898394550140	bin/sfml-audio-d-2.dll	fdbc7ed4ede024cb
-48	97	0	CMakeFiles/copy_resources	118362f57857dcb3
-71	726	7501129447786894	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-27	89	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	89	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-102	940	7501907027633181	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-95	1126	7501907029351539	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-25	73	0	CMakeFiles/copy_resources	118362f57857dcb3
-25	73	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-21	63	0	CMakeFiles/copy_resources	118362f57857dcb3
-21	63	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-18	61	0	CMakeFiles/copy_resources	118362f57857dcb3
-18	61	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-24	65	0	CMakeFiles/copy_resources	118362f57857dcb3
-24	65	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-65	680	7501908754997065	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-76	704	7501908755309634	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-70	898	7501908757184602	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-899	1167	7501908759215798	bin/SPACEINVADERS.exe	615465333bc66ebf
-26	82	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	82	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-82	666	7501911339056994	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-86	677	7501911339213244	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-677	891	7501911340775787	bin/SPACEINVADERS.exe	615465333bc66ebf
-24	68	0	CMakeFiles/copy_resources	118362f57857dcb3
-24	68	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-69	632	7501911595117049	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-633	848	7501911596835880	bin/SPACEINVADERS.exe	615465333bc66ebf
-55	112	0	CMakeFiles/copy_resources	118362f57857dcb3
-55	112	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-112	1267	7501927568583914	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-119	1383	7501927569681838	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-31	77	0	CMakeFiles/copy_resources	118362f57857dcb3
-31	77	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-77	1090	7501939061016660	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-88	1112	7501939061253661	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-82	1267	7501939062809802	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-1267	1605	7501939065452841	bin/SPACEINVADERS.exe	615465333bc66ebf
-29	81	0	CMakeFiles/copy_resources	118362f57857dcb3
-29	81	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-93	986	7501948858630322	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-43	94	0	CMakeFiles/copy_resources	118362f57857dcb3
-43	94	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-99	1332	7501982960782577	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-28	82	0	CMakeFiles/copy_resources	118362f57857dcb3
-28	82	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-82	714	7501985808049595	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-31	81	0	CMakeFiles/copy_resources	118362f57857dcb3
-31	81	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-20	63	0	CMakeFiles/copy_resources	118362f57857dcb3
-20	63	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-63	796	7501992373005112	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-76	799	7501992373036596	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-68	1000	7501992375044819	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-26	72	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	72	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-72	718	7501994453309181	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-28	68	0	CMakeFiles/copy_resources	118362f57857dcb3
-28	68	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-68	645	7501996051869998	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-26	75	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	75	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-20	64	0	CMakeFiles/copy_resources	118362f57857dcb3
-20	64	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-65	600	7501996815267841	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-26	71	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	71	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	620	7501997194184148	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-621	835	7501997195628222	bin/SPACEINVADERS.exe	615465333bc66ebf
-29	82	0	CMakeFiles/copy_resources	118362f57857dcb3
-29	82	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-87	1254	7502008103378954	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-26	70	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-70	648	7502008242975827	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-649	880	7502008244784353	bin/SPACEINVADERS.exe	615465333bc66ebf
-28	79	0	CMakeFiles/copy_resources	118362f57857dcb3
-28	79	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-20	66	0	CMakeFiles/copy_resources	118362f57857dcb3
-20	66	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-22	71	0	CMakeFiles/copy_resources	118362f57857dcb3
-22	71	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	839	7502012481132212	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-840	1057	7502012482858946	bin/SPACEINVADERS.exe	615465333bc66ebf
-26	66	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	66	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-67	827	7502012986154241	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-828	1002	7502012987572608	bin/SPACEINVADERS.exe	615465333bc66ebf
-29	73	0	CMakeFiles/copy_resources	118362f57857dcb3
-29	73	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-73	701	7502013791776030	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-702	923	7502013793623169	bin/SPACEINVADERS.exe	615465333bc66ebf
-25	65	0	CMakeFiles/copy_resources	118362f57857dcb3
-25	65	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-65	632	7502014019518215	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-633	829	7502014021086728	bin/SPACEINVADERS.exe	615465333bc66ebf
-24	65	0	CMakeFiles/copy_resources	118362f57857dcb3
-24	65	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-66	648	7502014162331976	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-649	844	7502014163951265	bin/SPACEINVADERS.exe	615465333bc66ebf
-27	71	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	71	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	627	7502014325664970	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-628	816	7502014327167128	bin/SPACEINVADERS.exe	615465333bc66ebf
-24	69	0	CMakeFiles/copy_resources	118362f57857dcb3
-24	69	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-69	621	7502014490663826	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-621	808	7502014492153741	bin/SPACEINVADERS.exe	615465333bc66ebf
-25	67	0	CMakeFiles/copy_resources	118362f57857dcb3
-25	67	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-67	585	7502014613113624	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-586	754	7502014614467941	bin/SPACEINVADERS.exe	615465333bc66ebf
-27	70	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	592	7502014737013664	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-593	782	7502014738467345	bin/SPACEINVADERS.exe	615465333bc66ebf
-30	72	0	CMakeFiles/copy_resources	118362f57857dcb3
-30	72	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-73	599	7502014922009639	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-600	779	7502014923424058	bin/SPACEINVADERS.exe	615465333bc66ebf
-27	68	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	68	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-68	601	7502015015675622	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-601	772	7502015017002833	bin/SPACEINVADERS.exe	615465333bc66ebf
-26	70	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	867	7502015436962724	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-867	1046	7502015438412725	bin/SPACEINVADERS.exe	615465333bc66ebf
-26	69	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	69	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-70	841	7502015803411592	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-842	1028	7502015804873381	bin/SPACEINVADERS.exe	615465333bc66ebf
-29	74	0	CMakeFiles/copy_resources	118362f57857dcb3
-29	74	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-74	641	7502016067544001	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-642	900	7502016069664258	bin/SPACEINVADERS.exe	615465333bc66ebf
-30	74	0	CMakeFiles/copy_resources	118362f57857dcb3
-30	74	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-74	649	7502016280082458	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-650	799	7502016281231496	bin/SPACEINVADERS.exe	615465333bc66ebf
-27	68	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	68	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-68	669	7502016534735619	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-670	859	7502016536234723	bin/SPACEINVADERS.exe	615465333bc66ebf
-26	71	0	CMakeFiles/copy_resources	118362f57857dcb3
-26	71	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-71	619	7502016647269689	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-620	794	7502016648572479	bin/SPACEINVADERS.exe	615465333bc66ebf
-24	65	0	CMakeFiles/copy_resources	118362f57857dcb3
-24	65	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-19	63	0	CMakeFiles/copy_resources	118362f57857dcb3
-19	63	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-63	638	7502017132709129	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-639	818	7502017134122208	bin/SPACEINVADERS.exe	615465333bc66ebf
-25	70	0	CMakeFiles/copy_resources	118362f57857dcb3
-25	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-74	861	7502018251106650	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-27	78	0	CMakeFiles/copy_resources	118362f57857dcb3
-27	78	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-79	636	7502018350639471	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-636	918	7502018353077211	bin/SPACEINVADERS.exe	615465333bc66ebf
-28	73	0	CMakeFiles/copy_resources	118362f57857dcb3
-28	73	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-73	1186	7502027174153444	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-1187	1430	7502027176098567	bin/SPACEINVADERS.exe	615465333bc66ebf
-25	73	0	CMakeFiles/copy_resources	118362f57857dcb3
-25	73	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-73	695	7502029283357275	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-695	929	7502029285227674	bin/SPACEINVADERS.exe	615465333bc66ebf
-28	75	0	CMakeFiles/copy_resources	118362f57857dcb3
-28	75	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-76	843	7502035029202259	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-86	859	7502035029355530	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-80	1104	7502035031819274	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-1104	1335	7502035033663477	bin/SPACEINVADERS.exe	615465333bc66ebf
-30	84	0	CMakeFiles/copy_resources	118362f57857dcb3
-30	84	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_resources	118362f57857dcb3
-84	774	7502037091170181	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/bullet.cpp.obj	d5c60dcd88ffb910
-89	957	7502037093053821	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/main.cpp.obj	ea8e2bf1b39ddb9e
-958	1173	7502037094758064	bin/SPACEINVADERS.exe	615465333bc66ebf
+132	1284	7502628300593151	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
+32	90	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+32	90	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+191	2771	7502624949474544	CMakeFiles/SPACEINVADERS.dir/tileEngine/entity.cpp.obj	92d9f9114f31a794
+96	893	7502638434213953	CMakeFiles/SPACEINVADERS.dir/tileEngine/player.cpp.obj	676a0781b0c063f5
+90	905	7502638434213953	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
+108	1101	7502634471255130	CMakeFiles/TILEENGINE.dir/tileEngine/main.cpp.obj	7e30343a26055492
+211	2834	7502624949705806	CMakeFiles/TILEENGINE.dir/tileEngine/entity.cpp.obj	7a81e29b19f9d0be
+906	1189	7502638436713944	bin/TILEENGINE.exe	6a75bfa29a36f512
+29	88	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+29	88	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+30	99	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+30	99	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+117	191	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+117	191	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+48	91	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+48	91	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+91	1312	7507037701943070	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
+1313	1661	7507037704318090	bin/TILEENGINE.exe	6a75bfa29a36f512
+48	95	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+48	95	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+95	768	7507038610747325	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
+769	971	7507038612307136	bin/TILEENGINE.exe	6a75bfa29a36f512
+28	75	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+28	75	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+22	70	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+22	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+71	802	7507039112656531	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
+803	1004	7507039114276339	bin/TILEENGINE.exe	6a75bfa29a36f512

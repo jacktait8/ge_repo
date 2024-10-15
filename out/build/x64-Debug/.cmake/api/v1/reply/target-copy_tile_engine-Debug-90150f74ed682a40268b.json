@@ -23,8 +23,8 @@
 			}
 		]
 	},
-	"id" : "copy_resources::@6890427a1f51a3e7e1df",
-	"name" : "copy_resources",
+	"id" : "copy_tile_engine::@6890427a1f51a3e7e1df",
+	"name" : "copy_tile_engine",
 	"paths" : 
 	{
 		"build" : ".",
@@ -52,13 +52,13 @@
 		{
 			"backtrace" : 1,
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/copy_resources",
+			"path" : "out/build/x64-Debug/CMakeFiles/copy_tile_engine",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/copy_resources.rule",
+			"path" : "out/build/x64-Debug/CMakeFiles/copy_tile_engine.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
