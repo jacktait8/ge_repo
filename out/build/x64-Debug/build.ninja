@@ -41,17 +41,52 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\out\build\x64-Debug\
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target lib_tile_level_loader
+
+
+#############################################
+# Order-only phony target for lib_tile_level_loader
+
+build cmake_object_order_depends_target_lib_tile_level_loader: phony || .
+
+build CMakeFiles\lib_tile_level_loader.dir\lib_tile_level_loader\LevelSystem.cpp.obj: CXX_COMPILER__lib_tile_level_loader_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\lib_tile_level_loader\LevelSystem.cpp || cmake_object_order_depends_target_lib_tile_level_loader
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_tile_level_loader"
+  OBJECT_DIR = CMakeFiles\lib_tile_level_loader.dir
+  OBJECT_FILE_DIR = CMakeFiles\lib_tile_level_loader.dir\lib_tile_level_loader
+  TARGET_COMPILE_PDB = CMakeFiles\lib_tile_level_loader.dir\lib_tile_level_loader.pdb
+  TARGET_PDB = lib_tile_level_loader.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target lib_tile_level_loader
+
+
+#############################################
+# Link the static library lib_tile_level_loader.lib
+
+build lib_tile_level_loader.lib: CXX_STATIC_LIBRARY_LINKER__lib_tile_level_loader_Debug CMakeFiles\lib_tile_level_loader.dir\lib_tile_level_loader\LevelSystem.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = CMakeFiles\lib_tile_level_loader.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\lib_tile_level_loader.dir\lib_tile_level_loader.pdb
+  TARGET_FILE = lib_tile_level_loader.lib
+  TARGET_PDB = lib_tile_level_loader.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target TILEENGINE
 
 
 #############################################
 # Order-only phony target for TILEENGINE
 
-build cmake_object_order_depends_target_TILEENGINE: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window copy_tile_engine
+build cmake_object_order_depends_target_TILEENGINE: phony || cmake_object_order_depends_target_lib_tile_level_loader cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window copy_tile_engine
 
 build CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\entity.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
+  INCLUDES = -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_tile_level_loader" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_maths" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\SYSTEM" -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
   OBJECT_DIR = CMakeFiles\TILEENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
   TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
@@ -59,7 +94,7 @@ build CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj: CXX_COMPILER__TILEENG
 
 build CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\main.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
+  INCLUDES = -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_tile_level_loader" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_maths" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\SYSTEM" -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
   OBJECT_DIR = CMakeFiles\TILEENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
   TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
@@ -67,7 +102,7 @@ build CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj: CXX_COMPILER__TILEENGIN
 
 build CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj: CXX_COMPILER__TILEENGINE_unscanned_Debug C$:\Users\44759\OneDrive$ -$ Edinburgh$ Napier$ University\Documents\GitHub\ge_repo\tileEngine\player.cpp || cmake_object_order_depends_target_TILEENGINE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
+  INCLUDES = -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_tile_level_loader" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib_maths" -I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\SYSTEM" -external:I"C:\Users\44759\OneDrive - Edinburgh Napier University\Documents\GitHub\ge_repo\lib\sfml\include" -external:W0
   OBJECT_DIR = CMakeFiles\TILEENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\TILEENGINE.dir\tileEngine
   TARGET_COMPILE_PDB = CMakeFiles\TILEENGINE.dir\
@@ -81,11 +116,10 @@ build CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj: CXX_COMPILER__TILEENG
 #############################################
 # Link the executable bin\TILEENGINE.exe
 
-build bin\TILEENGINE.exe: CXX_EXECUTABLE_LINKER__TILEENGINE_Debug CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj | lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll copy_tile_engine
+build bin\TILEENGINE.exe: CXX_EXECUTABLE_LINKER__TILEENGINE_Debug CMakeFiles\TILEENGINE.dir\tileEngine\entity.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\main.cpp.obj CMakeFiles\TILEENGINE.dir\tileEngine\player.cpp.obj | lib_tile_level_loader.lib lib\sfml\lib\sfml-graphics-d.lib lib\sfml\lib\sfml-window-d.lib lib\sfml\lib\sfml-system-d.lib || bin\sfml-graphics-d-2.dll bin\sfml-system-d-2.dll bin\sfml-window-d-2.dll copy_tile_engine lib_tile_level_loader.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:C:\Users\44759\ONEDRI~1\DOCUME~1\GitHub\ge_repo\out\build\X64-DE~1\lib\sfml\lib
+  LINK_LIBRARIES = lib_tile_level_loader.lib  lib\sfml\lib\sfml-graphics-d.lib  lib\sfml\lib\sfml-window-d.lib  lib\sfml\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\TILEENGINE.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -2010,6 +2044,8 @@ build TILEENGINE: phony bin\TILEENGINE.exe
 
 build TILEENGINE.exe: phony bin\TILEENGINE.exe
 
+build lib_tile_level_loader: phony lib_tile_level_loader.lib
+
 build sfml-audio: phony bin\sfml-audio-d-2.dll
 
 build sfml-audio-d-2.dll: phony bin\sfml-audio-d-2.dll
@@ -2042,7 +2078,7 @@ build sfml-window-d-2.dll: phony bin\sfml-window-d-2.dll
 #############################################
 # Folder: C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug
 
-build all: phony bin\TILEENGINE.exe copy_tile_engine lib\sfml\all
+build all: phony lib_tile_level_loader.lib bin\TILEENGINE.exe copy_tile_engine lib\sfml\all
 
 # =============================================================================
 

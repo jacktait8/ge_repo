@@ -366,6 +366,9 @@ SFML_USE_STATIC_STD_LIBS:BOOL=FALSE
 //TRUE to use system dependencies, FALSE to use the bundled ones.
 SFML_USE_SYSTEM_DEPS:BOOL=FALSE
 
+//Dependencies for the target
+TILEENGINE_LIB_DEPENDS:STATIC=general;sfml-graphics;general;sfml-graphics;
+
 //Path to a library.
 VORBISENC_LIBRARY:FILEPATH=C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/lib/sfml/extlibs/libs-msvc-universal/x64/vorbisenc.lib
 
@@ -380,9 +383,6 @@ VORBIS_LIBRARY:FILEPATH=C:/Users/44759/OneDrive - Edinburgh Napier University/Do
 
 //Treat compiler warnings as errors
 WARNINGS_AS_ERRORS:BOOL=OFF
-
-//Dependencies for the target
-lib_tile_level_loader_LIB_DEPENDS:STATIC=general;sfml-graphics;
 
 //Dependencies for the target
 sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;

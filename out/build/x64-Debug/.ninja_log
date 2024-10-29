@@ -1,5 +1,5 @@
 # ninja log v5
-21	946	7502643408659568	build.ninja	b6f6cc793ea01247
+24	632	7507132315686917	build.ninja	b6f6cc793ea01247
 143	311	7500897914323828	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj	ca42b6c508e0246e
 95	290	7500897914183820	lib/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj	f8dba6a8b38825d1
 2314	3730	7500898325674490	lib/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj	e2bc9803695f6225
@@ -71,7 +71,7 @@
 5093	5579	7500898344807816	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj	51739375b623938b
 9305	10145	7500898390552200	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj	2b292084acf32775
 5126	5586	7500898344914328	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj	3ac4629b9c3bd682
-95	285	7496792624742518	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/sfml-network.rc.res	a5a27815f2bef53e
+87	251	7507126152975886	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/sfml-network.rc.res	a5a27815f2bef53e
 4580	6105	7500898350146547	lib/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.obj	c4240d8c4fe61e62
 5826	6433	7500898353155921	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj	1a124388ca8068b
 5460	6426	7500898353135929	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj	1b078cbfca22e67e
@@ -94,13 +94,13 @@
 7319	7932	7500898368211698	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj	b1a674501f4a8fb3
 6426	7852	7500898367430379	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj	50f1fcc46e53e83f
 7121	7971	7500898368524133	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj	a842f895bae6c421
-6128	7311	7500898350226541	bin/sfml-network-d-2.dll	4d2a75240a087793
-6128	7311	7500898350226541	lib/sfml/lib/sfml-network-d.lib	4d2a75240a087793
+252	481	7507126152975886	bin/sfml-network-d-2.dll	4d2a75240a087793
+252	481	7507126152975886	lib/sfml/lib/sfml-network-d.lib	4d2a75240a087793
 7607	7963	7500898368524133	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj	ed03cd9474d34009
 7852	8103	7500898370076299	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj	4cf17177d3a1386e
 10541	10780	7500898394550140	lib/sfml/lib/sfml-audio-d.lib	fdbc7ed4ede024cb
 7516	8065	7500898369500445	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj	1cbd363ff49f1e70
-8642	9361	7496618769367876	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/sfml-graphics.rc.res	e957fdecbfb7809f
+137	640	7507123967328916	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/sfml-graphics.rc.res	e957fdecbfb7809f
 7972	8586	7500898374967725	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj	fa430681fc102c46
 7952	8679	7500898375317729	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj	ec6d2b34be0b8b4f
 7420	8655	7500898375347799	lib/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj	cc9c74d68e8b1552
@@ -121,36 +121,16 @@
 9286	10321	7500898392336250	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.obj	8213d6ca72395d86
 9970	10415	7496620623549887	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.res	582d1dadfd2fec56
 9612	10514	7500898394264112	lib/sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj	2ad76b5335979cd9
-8979	10336	7500898378824279	bin/sfml-graphics-d-2.dll	a381e0d38bef47e5
-8979	10336	7500898378824279	lib/sfml/lib/sfml-graphics-d.lib	a381e0d38bef47e5
+640	991	7507123967328916	bin/sfml-graphics-d-2.dll	a381e0d38bef47e5
+640	991	7507123967328916	lib/sfml/lib/sfml-graphics-d.lib	a381e0d38bef47e5
 11941	12336	7496559427207765	bin/PRACTICAL_1.exe	4281e230b5af2c40
 10541	10780	7500898394550140	bin/sfml-audio-d-2.dll	fdbc7ed4ede024cb
 132	1284	7502628300593151	CMakeFiles/SPACEINVADERS.dir/spaceInvaders/ship.cpp.obj	512161ecba9dd0c3
-32	90	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-32	90	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
+59	129	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
+59	129	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
 191	2771	7502624949474544	CMakeFiles/SPACEINVADERS.dir/tileEngine/entity.cpp.obj	92d9f9114f31a794
 96	893	7502638434213953	CMakeFiles/SPACEINVADERS.dir/tileEngine/player.cpp.obj	676a0781b0c063f5
-90	905	7502638434213953	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
+206	1320	7507123974206563	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
 108	1101	7502634471255130	CMakeFiles/TILEENGINE.dir/tileEngine/main.cpp.obj	7e30343a26055492
 211	2834	7502624949705806	CMakeFiles/TILEENGINE.dir/tileEngine/entity.cpp.obj	7a81e29b19f9d0be
-906	1189	7502638436713944	bin/TILEENGINE.exe	6a75bfa29a36f512
-29	88	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-29	88	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-30	99	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-30	99	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-117	191	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-117	191	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-48	91	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-48	91	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-91	1312	7507037701943070	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
-1313	1661	7507037704318090	bin/TILEENGINE.exe	6a75bfa29a36f512
-48	95	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-48	95	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-95	768	7507038610747325	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
-769	971	7507038612307136	bin/TILEENGINE.exe	6a75bfa29a36f512
-28	75	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-28	75	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-22	70	0	CMakeFiles/copy_tile_engine	118362f57857dcb3
-22	70	0	C:/Users/44759/OneDrive - Edinburgh Napier University/Documents/GitHub/ge_repo/out/build/x64-Debug/CMakeFiles/copy_tile_engine	118362f57857dcb3
-71	802	7507039112656531	CMakeFiles/TILEENGINE.dir/tileEngine/player.cpp.obj	91b02a1638fe05d1
-803	1004	7507039114276339	bin/TILEENGINE.exe	6a75bfa29a36f512
+155	439	7507126153831125	bin/TILEENGINE.exe	6a75bfa29a36f512

@@ -1978,6 +1978,18 @@
 			"value" : "8"
 		},
 		{
+			"name" : "TILEENGINE_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;sfml-graphics;general;sfml-graphics;"
+		},
+		{
 			"name" : "VORBISENC_LIBRARY",
 			"properties" : 
 			[
